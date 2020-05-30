@@ -1,25 +1,16 @@
 const state = {}
-const hnBaseUrl = 'https://hacker-news.firebaseio.com/v0'
+const hnBaseUrl = 'http://127.0.0.1:8886'
 function fetchTopStories() {
-  const topStoriesUrl = `${hnBaseUrl}/topstories.json`
+   const topStoriesUrl = `${hnBaseUrl}/news/1.json`
   return fetch(topStoriesUrl).then(response => response.json())
-    .then((data) => fetchStories(data))
+//    .then((data) => fetchStories(data))
+	  .then((data) => renderStories(data))
 }
-function fetchStories(data) {
-  const topStories = data.slice(0, 29)
-  const storyIds = topStories.map((storyId) => {
-    const storyUrl = `${hnBaseUrl}/item/${storyId}.json`
-    return fetch(storyUrl).then((response) => response.json())
-      .then((story) => story)
-  })
-  return Promise.all(storyIds).then((stories) => {
-    state.stories = stories
-    renderStories(stories)
-  })
-}
-function renderStories(stories) {
-  return stories.map((story) => {
-    const userUrl = `https://news.ycombinator.com/user?id=${story.by}`
+
+function renderStories(data) {
+   const stories = data.map((story) => {
+//    return stories.map((story) => {
+    const userUrl = `https://news.ycombinator.com/user?id=${story.user}`
     const storyItemUrl = `https://news.ycombinator.com/item?id=${story.id}`
     const html = `
       <div class='story' id='${story.id}'>
@@ -27,8 +18,9 @@ function renderStories(stories) {
           ${story.url ? `<a href='${story.url}' target='_blank'>${story.title}</a>`
             : `<a href='javascript:void(0)' onclick="toggleStoryText('${story.id}')" >${story.title}</a>`}
         </h3>
-        <span class='score'> ${story.score} </span> points by
-        <a href='${userUrl}' target='_blank' class='story-by'> ${story.by}</a>
+
+<span class='score'> ${story.points} </span> points by
+        <a href='${userUrl}' target='_blank' class='story-by'> ${story.user}</a>
         <div class='toggle-view'>
           ${story.kids ? `
             <span
@@ -38,6 +30,7 @@ function renderStories(stories) {
           : '' }
           <a href='${storyItemUrl}' target='_blank' class='hnLink'>[view on HN]</a>
         </div>
+
         ${story.text ?
           `<div class='storyText' id='storyText-${story.id}' style='display:none;'>
             ${story.text} </div>` : '' }
@@ -47,7 +40,7 @@ function renderStories(stories) {
   })
 }
 function toggleStoryText(storyId) {
-  const storyText = document.getElementById(`storyText-${storyId}`)
+  const storyText = document.getElementById(`storyText-${story.id}`)
   storyText.style.display = (storyText.style.display === 'block') ? 'none' : 'block'
 }
 function fetchComments(kids, storyId) {
