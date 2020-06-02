@@ -1,0 +1,31 @@
+id,title,lede,points,user,time,time_ago,comments_count,type,url,domain
+23343799,Deno Is a Browser for Code,Lots of folks take the ubiquity of package managers and centralized code registries as a requirement to have a package manager and a centralized code registries. Because they exist doesn’t mean they are required.,191,beefman,1590705564,12 hours ago,97,link,https://kitsonkelly.com/posts/deno-is-a-browser-for-code/,kitsonkelly.com
+23345379,GPT-3: Language Models Are Few-Shot Learners,,288,gwern,1590716211,9 hours ago,112,link,https://arxiv.org/abs/2005.14165,arxiv.org
+23346479,Western Digital Lawsuit for Shipping Slower SMR Hard Drives Including WD Red NAS,,86,notRobot,1590729277,5 hours ago,35,link,https://www.hattislaw.com/cases/investigations/western-digital-lawsuit-for-shipping-slower-smr-hard-drives-including-wd-red-nas/?shh,hattislaw.com
+23331674,Stoke – A stochastic superoptimizer and program synthesizer,,12,lelf,1590623568,a day ago,6,link,http://stoke.stanford.edu/,stoke.stanford.edu
+23345135,OpenSSL 3.0,,158,ddb,1590714100,9 hours ago,51,link,https://wiki.openssl.org/index.php/OpenSSL_3.0,wiki.openssl.org
+23341179,Idea Generation,,375,awaxman11,1590693315,15 hours ago,114,link,https://blog.samaltman.com/idea-generation,blog.samaltman.com
+23345173,1989 California Medfly Attack,,141,eindiran,1590714409,9 hours ago,58,link,https://en.wikipedia.org/wiki/1989_California_medfly_attack,en.wikipedia.org
+23345434,Parsing Series of Integers with SIMD (2018),,33,lelf,1590716701,9 hours ago,3,link,http://0x80.pl/articles/simd-parsing-int-sequences.html,0x80.pl
+23343794,I wrote a SaaS product because the internet made me believe it'd make me rich,,252,stets,1590705544,12 hours ago,150,link,https://blog.stetsonblake.com/thoughts-on-learning-to-design-build-and-launch-a-saas-business/,blog.stetsonblake.com
+23346971,How the Startup Slice Got Their First 1000 Customers,,16,abouelatta,1590735096,3 hours ago,5,link,https://first1000.substack.com/p/-slice,first1000.substack.com
+23332286,Guitar Decomposed: 5. Mutating the Third,,50,lelf,1590628848,a day ago,27,link,https://bartoszmilewski.com/2020/05/27/guitar-decomposed-5-mutating-the-third/,bartoszmilewski.com
+23347389,Show HN: I built a free forms service for static websites,,20,yupitszac,1590738801,2 hours ago,14,link,https://www.formking.io,formking.io
+23344864,How Napoleon Bonaparte’s delayed funeral came to be,,9,Thevet,1590711913,10 hours ago,0,link,https://www.laphamsquarterly.org/roundtable/bring-him-home,laphamsquarterly.org
+23343466,Most-streamed track of the day by country,,117,sebastien-lbn,1590703926,12 hours ago,146,link,https://www.worldspotify.com/,worldspotify.com
+23335759,Trilium Notes: Markdown autoformat personal knowledge base,,171,en3r0,1590662475,a day ago,46,link,https://github.com/zadam/trilium,github.com
+23330099,How many people did it take to build the Great Pyramid?,,100,samizdis,1590614216,2 days ago,69,link,https://spectrum.ieee.org/tech-history/heroic-failures/how-many-people-did-it-take-to-build-the-great-pyramid,spectrum.ieee.org
+23336396,What's in a Parser Combinator? (2016),,65,pythux,1590668546,a day ago,16,link,https://remusao.github.io/posts/whats-in-a-parser-combinator.html,remusao.github.io
+23339830,Tools for Better Thinking,,725,mmoez,1590686107,17 hours ago,97,link,https://untools.co,untools.co
+23346552,U.K. Plans Citizenship for Hong Kong Residents in Row with China,,178,JumpCrisscross,1590730202,5 hours ago,150,link,https://www.bloomberg.com/news/articles/2020-05-28/u-k-plans-citizenship-for-hong-kong-residents-in-row-with-china,bloomberg.com
+23337091,"AudioMass – free, open source, web-based Audio and Waveform editor",,900,zaiste,1590673327,21 hours ago,163,link,https://audiomass.co/,audiomass.co
+23339776,The Fastest Google Fonts,,187,mmoez,1590685894,17 hours ago,121,link,https://csswizardry.com/2020/05/the-fastest-google-fonts/,csswizardry.com
+23339244,Show HN: RoughNotation – create and animate hand-drawn annotations on a web page,,580,shihn,1590683503,18 hours ago,67,link,https://roughnotation.com/,roughnotation.com
+23346286,"Relationship between psychedelics, the brain, well-being, and creativity",,57,kenta_nagamine,1590726826,6 hours ago,16,link,https://mythirdbrain.substack.com/p/what-psychedelics-teach-us-about,mythirdbrain.substack.com
+23337759,The Garden and the Stream: A Technopastoral,,8,polm23,1590676443,20 hours ago,1,link,https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/,hapgood.us
+23341721,PowerPC Solaris on the RS/6000,,79,bcantrill,1590695340,15 hours ago,47,link,https://virtuallyfun.com/wordpress/2020/05/28/powerpc-solaris-on-the-rs-6000/,virtuallyfun.com
+23334339,The Vintage Beauty of Soviet Control Rooms (2018),,576,ricardomcgowan,1590649343,a day ago,235,link,https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/,designyoutrust.com
+23335368,Why we have so many problems with our teeth,,219,lelf,1590658949,a day ago,179,link,https://www.scientificamerican.com/article/why-we-have-so-many-problems-with-our-teeth/,scientificamerican.com
+23340887,Android Studio 4.0,,237,raybb,1590691715,16 hours ago,225,link,https://android-developers.googleblog.com/2020/05/android-studio-4.html,android-developers.googleblog.com
+23336407,Dangerous SHA-1 crypto function is about to die in SSH,,52,headalgorithm,1590668651,a day ago,22,link,https://arstechnica.com/information-technology/2020/05/dangerous-sha-1-crypto-function-is-about-to-die-in-ssh/,arstechnica.com
+23344666,The Writings of Leslie Lamport,,109,kaymanb,1590710645,10 hours ago,6,link,https://lamport.azurewebsites.net/pubs/pubs.html,lamport.azurewebsites.net
